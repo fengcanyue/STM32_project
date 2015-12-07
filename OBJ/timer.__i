@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Libraries -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\DAC -I..\HARDWARE\LED -I..\HARDWARE\TIMER -I..\HARDWARE\CAPTURE -I..\HARDWARE\DMA -I..\HARDWARE\PWM 
+-I H:\software\Keil\ARM\RV31\INC 
+-I H:\software\Keil\ARM\CMSIS\Include 
+-I H:\software\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\timer.o" --omf_browse "..\OBJ\timer.crf" --depend "..\OBJ\timer.d" "..\HARDWARE\TIMER\timer.c"
